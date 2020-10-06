@@ -47,10 +47,10 @@ public class BowlingTests {
 
     @Test
     public void ThirdFrameStrike() {
-        BowlingGame game = new BowlingGame(new int[] {2,1, 4,2, 10,0, 3,2, 5,4, 5,2, 1,8, 5,3, 1,5, 7,1});
+        BowlingGame game = new BowlingGame(new int[] {5,2, 1,1, 10,0, 5,3, 2,1, 5,4, 8,1, 4,4, 5,1, 7,2});
         int result = game.score();
 
-//        assertEquals();
+        assertEquals(79, result);
     }
 
     // Exercise 2
