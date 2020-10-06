@@ -57,12 +57,12 @@ public class BowlingTests {
 
     @Test
     public void PerfectGame() {
-        BowlingGame game = new BowlingGame(new int[] {});
+        BowlingGame game = new BowlingGame(new int[] {10,0, 10,0, 10,0, 10,0, 10,0, 10,0, 10,0, 10,0, 10,0, 10,0});
         int result = game.score();
 
-//        assertEquals();
+        assertEquals(300, result);
     }
 
-    // Exercise 3: Apply TDD to implemet alternating strikes and spares.
+    // Exercise 3: Apply TDD to implement alternating strikes and spares.
 
 }
